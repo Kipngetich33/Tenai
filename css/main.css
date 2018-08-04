@@ -1,3 +1,83 @@
-#top-header{
-    color: red;
+
+/* this is the general section */
+.top-thirty{
+    margin-top:30px;
 }
+.button-thirty{
+    margin-bottom:30px;
+}
+.white{
+    color:white;
+}
+.centering{
+    text-align: center;
+}
+.social{
+    background-color:#4d4d4d;
+    margin:5px;
+    padding:5px;
+    padding-left:8px;
+    padding-right:8px;
+    float: right;
+    border-radius: 5px;
+}
+
+
+/* styles for the top section */
+#header1{
+    /* this the first section of the header */
+    background-color:rgb(0, 176, 112);
+    min-height: 70px;
+}
+#header2{
+    /* second section of the header section */
+    min-height: 110px;
+
+}
+
+ul li{
+    display: inline;
+}
+#contacts{
+    font-size:14px;
+}
+#social-ul{
+    margin-right:40px;
+}
+
+/* this is the second part of the header */
+#main-menu{
+    font-weight:bold;
+    color:rgb(0, 176, 112);
+    font-size:15px;
+}
+#main-menu li{
+    margin:15px;
+    
+}
+
+
+/* this is the third section with iamges*/
+#myCarousel{
+    margin-left:30px;
+}
+
+/*styles fourth section with messages */
+#read-more{
+    color:rgb(0, 176, 112);
+    /* font-weight:bold; */
+}
+
+/* this is the footer section */
+/* first part of the bottom section */
+.social-bottom{
+    background-color:rgb(0, 176, 112);
+    color:white;
+    font-size:30px;
+    padding:10px;
+    border-radius: 5px;
+
+}
+
+
+
