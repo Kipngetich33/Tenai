@@ -21,6 +21,9 @@
     float: right;
     border-radius: 5px;
 }
+.main-color{
+    color:rgb(0, 176, 112);
+}
 
 
 /* styles for the top section */
@@ -97,3 +100,21 @@ ul li{
 }
 
 
+
+/* styles for the about page */
+#page-title{
+    margin:30px;
+}
+.side_list{
+    margin-right:30px;
+    min-width: 100%;
+    color:rgb(0, 176, 112);
+    font-size:15px;
+    background-color:#e6e6e6;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+#paragraph-description{
+    margin:10px;
+    margin-top:40px;
+}
