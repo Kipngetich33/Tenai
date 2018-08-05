@@ -6,7 +6,7 @@
     <title>Tenai Education Center </title>
 
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -63,6 +63,7 @@
 
         </div>
 
+        
         <!-- this is the image section -->
         <div  style="margin-top:30px;">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -78,19 +79,57 @@
                 <div class="item active">
                     <img src="images/langat2.jpg" alt="Los Angeles" style="width:100%; height:400px; ">
                     <div class="carousel-caption">
-                        <h2 class="wow slideInLeft animated" data-wow-duration="ls" 
-                        style="visibility: visible;animation-duration:ls;animation-name:slideInLeft;">
-                        Lorem ipsum
-                    </h2>
+                        
+                        <div class="transbox" id="transboxj">
+                            <h1 class="captions">
+                                Tenai Education Center
+                            </h1>
+                        </div>
+                        <div class="transbox1" id="transboxj">
+                            <h2 class="captions">
+                                Lorem ipsum
+                            </h2>
+                        </div>
+
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="images/langat2.jpg" alt="Chicago" style="width:100%; height:400px;">
+                    <div class="carousel-caption">
+                        
+                        <div class="transbox" id="transboxj">
+                            <h1 class="captions">
+                                Tenai Education Center
+                            </h1>
+                        </div>
+                        <div class="transbox1" id="transboxj">
+                            <h2 class="captions">
+                                Lorem ipsum
+                            </h2>
+                        </div>
+
+                    </div>
+
                 </div>
                 
                 <div class="item">
                     <img src="images/langat1.jpg" alt="New york" style="width:100%;height:400px;">
+                    <div class="carousel-caption">
+                        
+                        <div class="transbox" id="transboxj">
+                            <h1 class="captions">
+                                Tenai Education Center
+                            </h1>
+                        </div>
+                        <div class="transbox1" id="transboxj">
+                            <h2 class="captions">
+                                Lorem ipsum
+                            </h2>
+                        </div>
+
+                    </div>
+
                 </div>
                 </div>
 
@@ -284,5 +323,20 @@
 
     <!-- this is the end of the footer section -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+            console.log( "ready!" );
+            animate()
+           
+        });
+
+        function animate(){
+            $("#transboxj").hide();
+            $("#transboxj").show(300);
+            
+        }
+        setInterval(animate, 5001)
+        
+    </script>
 </body>
 </html>
