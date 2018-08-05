@@ -56,7 +56,18 @@ ul li{
 }
 #main-menu li{
     margin:15px;
+    padding:15px;
+    border-radius:5px;  
     
+}
+
+#main-menu li:hover{
+    background-color: rgb(85, 204, 255);
+}
+
+.active-menu{
+    background-color: rgb(85, 204, 255);
+
 }
 
 
