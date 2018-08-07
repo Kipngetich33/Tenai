@@ -216,4 +216,24 @@ div.transbox1 h1 {
   }
   
   
-  
+
+/* the styles below are for the tesst media queries section */
+#media1{
+    background-color:lightblue;
+    min-height: 100px;
+}
+
+@media only screen and (max-width: 600px){
+    #media1{
+        background-color:lightgreen;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    #media1{
+        background-color:red;
+    }
+    h1{
+        font-size:5px;
+    }
+}
