@@ -178,7 +178,12 @@ div.transbox1 h1 {
 
 /* this is code for test animations */
 #myCarousel{
-    width:400px;
+    width:100%;
+    opacity: 0.7;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:10px;
+    margin-top:20px;
   }
   .caption-animate .item.active .carousel-caption {
     -webkit-animation-duration: 2s;
@@ -215,7 +220,26 @@ div.transbox1 h1 {
     opacity:0;
   }
   
-  
+#h2-caption1{
+    background-color:black;
+    margin-bottom:240px;
+    width:30%;
+    padding:15px;
+    opacity: 0.7;
+}
+#h2-caption2{
+    background-color:black;
+    margin-bottom:180px;
+    width:45%;
+    padding:15px;
+    opacity: 0.7;
+}
+#corousel-image{
+    height:400px; 
+    width:100%;
+}
+
+
 
 /* the styles below are for the tesst media queries section */
 #media1{
