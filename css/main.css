@@ -343,7 +343,17 @@
         .nutshell-body-font{
             font-size:15px;
         }
-
+        .fifteen-pixels{
+            font-size:15px;
+        }
+        #tenai-image{
+            float:left;
+            margin:15px;
+        }
+        #about-moto-mission{
+            /* margin-top:30px; */
+            margin-bottom:30px;
+        }
     }
 
 
