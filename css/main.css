@@ -1,3 +1,302 @@
+/* this are the general styles */
+#page-title-row{
+    background-color:rgb(245, 245, 245);
+
+
+}
+
+#actual-logo{
+        width:100px;
+        height: 100px;
+        margin-left:100px;
+        margin-top:10px;
+    }
+    #logo-title{
+        color:rgb(0, 176, 112);
+        font-weight: bold;
+        font-size:25px;
+        
+    }
+    
+    #title-div{
+        padding-top:25px;
+    }
+    #motto{
+        color:black;
+        /*font-weight: bold;*/
+        font-family: italic;
+        font-size:18px;
+        margin-left: 80px;
+    }
+
+        /* this is the general section */
+.top-thirty{
+    margin-top:30px;
+}
+.button-thirty{
+    margin-bottom:30px;
+}
+.white{
+    color:white;
+}
+.centering{
+    text-align: center;
+}
+.social{
+    background-color:#4d4d4d;
+    margin:5px;
+    padding:5px;
+    padding-left:8px;
+    padding-right:8px;
+    float: right;
+    border-radius: 5px;
+}
+.main-color{
+    color:rgb(0, 176, 112);
+}
+
+
+/* styles for the top section */
+#header1{
+    /* this the first section of the header */
+    background-color:rgb(0, 176, 112);
+    min-height: 70px;
+}
+#header2{
+    /* second section of the header section */
+    min-height: 110px;
+
+}
+
+#main-menu li{
+    display: inline;
+    font-size:15px;
+}
+#contacts{
+    font-size:14px;
+}
+#social-ul{
+    margin-right:40px;
+}
+#social-ul li {
+    display: inline;
+}
+
+/* this is the second part of the header */
+#main-menu{
+    font-weight:bold;
+    color:rgb(0, 176, 112);
+    font-size:15px;
+}
+#main-menu li{
+    margin:15px;
+    padding:15px;
+    border-radius:5px;  
+    
+}
+
+#main-menu li:hover{
+    background-color: rgb(85, 204, 255);
+}
+
+.active-menu{
+    background-color: rgb(85, 204, 255);
+
+}
+
+
+/* this is the third section with iamges*/
+#myCarousel{
+    margin-left:30px;
+}
+
+/*styles fourth section with messages */
+#read-more{
+    color:rgb(0, 176, 112);
+    /* font-weight:bold; */
+}
+
+/* this is the footer section */
+/* first part of the bottom section */
+.social-bottom{
+    background-color:rgb(0, 176, 112);
+    color:white;
+    font-size:30px;
+    padding:10px;
+    border-radius: 5px;
+
+}
+
+/* styles for the middle section */
+.panel-default{
+    background-color:gainsboro;
+    margin-bottom:2px;
+}
+
+.core-pointers{
+    font-size:25px;
+    background-color:rgb(0, 176, 112);
+    padding:5px; padding-left:10px;
+    padding-right:10px;
+}
+.panel-body{
+    /* do not display panel body unless the user clicks it */
+    display:none;
+}
+
+/* styles for the about page */
+#page-title{
+    margin:30px;
+    font-family: 'Philosopher', sans-serif; 
+    font-weight: bold;
+}
+.side_list{
+    margin-right:30px;
+    min-width: 100%;
+    color:rgb(0, 176, 112);
+    font-size:15px;
+    background-color:#e6e6e6;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+#paragraph-description{
+    margin:10px;
+    margin-top:40px;
+}
+
+
+div.transbox {
+    width: 700px;
+    margin-left: 20px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    margin-bottom: 20px;
+}
+div.transbox h1 {
+    /* margin: 5%; */
+    /* margin-left:10px; */
+    font-weight: bold;
+    color: #ffffff;
+}
+
+div.transbox1 {
+    margin-left:20px;
+    margin-bottom:170px;
+    width:500px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox1 h1 {
+    /* margin: 5%; */
+    /* font-weight: bold; */
+    color: #ffffff;
+}
+.captions{
+    text-align:center;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+#transboxj{
+    visibility: visible;
+    animation-duration: 1s;
+    animation-name: slideInLeft;
+
+}
+
+
+/* this is code for test animations */
+#myCarousel{
+    width:100%;
+    opacity: 0.7;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:10px;
+}
+.caption-animate .item.active .carousel-caption {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.caption-animate  .item.active .carousel-caption.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.caption-animate  .item.active .carousel-caption.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.caption-animate .item.active .carousel-caption.flipOutX,
+.caption-animate .item.active .carousel-caption.flipOutY,
+.caption-animate .item.active .carousel-caption.bounceIn,
+.caption-animate .item.active .carousel-caption.bounceOut {
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+}
+.caption-animate .item .carousel-caption.fadeIn,
+.caption-animate .item .carousel-caption.fadeInDown,
+.caption-animate .item .carousel-caption.fadeInDownBig,
+.caption-animate .item .carousel-caption.fadeInLeft,
+.caption-animate .item .carousel-caption.fadeInLeftBig,
+.caption-animate .item .carousel-caption.fadeInRight,
+.caption-animate .item .carousel-caption.fadeInRightBig,
+.caption-animate .item .carousel-caption.fadeInUp,
+.caption-animate .item .carousel-caption.fadeInUpBig{
+    opacity:0;
+}
+
+#h2-caption1{
+    background-color:black;
+    margin-bottom:240px;
+    width:30%;
+    padding:15px;
+    opacity: 0.7;
+    font-size:20px;
+}
+#h2-caption2{
+    background-color:black;
+    margin-bottom:180px;
+    width:45%;
+    padding:15px;
+    opacity: 0.7;
+    font-size:20px;
+}
+#corousel-image{
+    height:400px; 
+    width:100%;
+}
+.more-links-section{
+    padding:10px;
+}
+
+#offers-ul li{
+    font-size:15px;
+}
+.nutshell-body-font{
+    font-size:15px;
+}
+.fifteen-pixels{
+    font-size:15px;
+}
+#tenai-image{
+    float:left;
+    margin:15px;
+}
+#about-moto-mission{
+    /* margin-top:30px; */
+    margin-bottom:30px;
+}
+
+/* emd of styles */
+
 
 /* the styles below are for the tesst media queries section */
 @media only screen and (min-width : 320px) {
@@ -8,6 +307,51 @@
         border-radius:5px;  
         
     }
+    #main-menu li{
+        margin:3px;
+        padding:4px;
+        border-radius:3px;  
+        font-size:10px;
+        
+    }
+    #logo-title{
+        color:rgb(0, 176, 112);
+        font-weight: bold;
+        font-size:20px;
+        text-align: center;
+        margin-left:60px;
+        
+    }
+    #h2-caption1{
+        font-size:15px;
+        padding:5px;
+        width:40%;
+
+    }
+    #h2-caption2{
+        font-size:15px;
+        padding:5px;
+        width:70%;
+        margin-bottom:160px;
+    }
+
+
+    #actual-logo{
+        width:100px;
+        height: 100px;
+        margin-left:120px;
+        margin-top:10px;
+    }
+    #motto{
+        color:black;
+        /*font-weight: bold;*/
+        font-family: italic;
+        font-size:18px;
+        margin-left: 110px;
+    }
+    .nutshell-titles{
+        font-size:15px;
+    }
 
 }
 
@@ -15,11 +359,34 @@
 @media only screen and (min-width : 480px) {  
     
     #main-menu li{
-        margin:2px;
-        padding:2px;
+        margin:15px;
+        /* padding:15px; */
         border-radius:5px;  
         
     }
+    #main-menu li{
+        margin:3px;
+        padding:4px;
+        border-radius:3px;  
+        font-size:10px;
+        
+    }
+    #logo-title{
+        color:rgb(0, 176, 112);
+        font-weight: bold;
+        font-size:20px;
+        text-align: center;
+        margin-left:50px;
+        
+    }
+    #h2-caption1{
+        font-size:15px;
+    }
+    #h2-caption2{
+        font-size:15px;
+    }
+    
+   
     
 }
 
@@ -75,6 +442,8 @@
                 color:rgb(0, 176, 112);
                 font-weight: bold;
                 font-size:25px;
+                text-align: none;
+                margin-left:0px;
                 
             }
             
@@ -196,7 +565,8 @@
         .core-pointers{
             font-size:25px;
             background-color:rgb(0, 176, 112);
-            padding:5px; padding-left:10px;
+            padding:5px; 
+            padding-left:10px;
             padding-right:10px;
         }
         .panel-body{
@@ -235,8 +605,6 @@
             margin-bottom: 20px;
         }
         div.transbox h1 {
-            /* margin: 5%; */
-            /* margin-left:10px; */
             font-weight: bold;
             color: #ffffff;
         }
@@ -354,9 +722,10 @@
             /* margin-top:30px; */
             margin-bottom:30px;
         }
+        .nutshell-titles{
+            font-size:20px;
+        }
     }
 
-
-}
 
  
