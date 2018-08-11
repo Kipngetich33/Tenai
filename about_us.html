@@ -57,8 +57,16 @@
     <!-- second section of the header section -->
     <div class="row" id="header2">
         <!-- logo section -->
-        <div class="col-md-6">
+        <!-- logo section -->
+        <div class="col-md-2">
             <!-- logo goes here -->
+            <img  id="actual-logo" src="images/logo.png"/>
+        </div>
+
+        <div class="col-md-4" id="title-div">
+            <!-- this is the end of the  logo title section -->
+            <span id="logo-title">TENAI EDUCATION CENTER</span><br>
+            <span  id="motto">The future is here</span>
         </div>
 
         <div class="col-md-6">
@@ -77,8 +85,8 @@
     <!-- this is the body section -->
     <div class="row">
         <!-- this is the title part -->
-        <div class="col-md-12 col-sm-12 col-xs-12" style="background-color:rgb(245, 245, 245);">
-            <h1 id="page-title" style="font-family: 'Philosopher', sans-serif; font-weight: bold;">ABOUT US</h1>
+        <div class="col-md-12 col-sm-12 col-xs-12" id="page=title-row" style="background-color:rgb(245, 245, 245);">
+            <h1 id="page-title" >ABOUT US</h1>
         </div>
     </div>
     <!-- this is the stacked nav section -->
@@ -87,7 +95,7 @@
         <div class="col-md-3">
             <!-- this is the side menu -->
             <ul class="nav nav-tabs nav-stacked top-thirty bottom-thirty">
-                <li class="side_list">
+                <li class="side_list" id="side-tenai">
                     <a href="#" style="color:rgb(0, 176, 112);">Tenai Education Center</a>
                 </li>
                 <li class="side_list" >
@@ -301,6 +309,29 @@
 
 
     <!-- this is the end of the footer section -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            console.log( "ready!" );
+            
+        $("#side-tenai").click(function(){
+            show about 
+
+            console.log("tenai")
+        });
+
+        $("#side-tenai").click(function(){
+            console.log("tenai")
+        });
+
+        $("#side-tenai").click(function(){
+            console.log("tenai")
+        });
+
+        $("#side-tenai").click(function(){
+            console.log("tenai")
+        });
+
+        });
+    </script>
 </body>
 </html>

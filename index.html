@@ -24,6 +24,7 @@
     <!-- local scripts below -->
     <script src="css/bootstrap3/dist/js/bootstrap.min.js"></script>
 
+
 </head>
 
 <body >
@@ -57,8 +58,15 @@
     <!-- second section of the header section -->
     <div class="row" id="header2">
         <!-- logo section -->
-        <div class="col-md-6">
+        <div class="col-md-2">
             <!-- logo goes here -->
+            <img  id="actual-logo" src="images/logo.png"/>
+        </div>
+
+        <div class="col-md-4" id="title-div">
+            <!-- this is the end of the  logo title section -->
+            <span id="logo-title">TENAI EDUCATION CENTER</span><br>
+            <span  id="motto">The future is here</span>
         </div>
 
         <div class="col-md-6">
@@ -90,40 +98,31 @@
               <div class="item active">
                 <img src="images/langat1.jpg" id="corousel-image" alt="image" >
                 <div class="carousel-caption fadeInLeft " >
-                  <h2 id="h2-caption1">One</h2>
+                  <h2 id="h2-caption1">TEC</h2>
                 </div>
                 <div class="carousel-caption fadeInRight">
-                  <h3 id="h2-caption2">More abou the h2 tags</h3>
+                  <h3 id="h2-caption2">The Future is Here</h3>
                 </div>
               </div>
           
               <div class="item">
                 <img src="images/langat2.jpg" alt="image" id="corousel-image">
                 <div class="carousel-caption fadeInDown" >
-                  <h2 id="h2-caption1">One</h2>
+                  <h2 id="h2-caption1">Facilities</h2>
                 </div>
                 <div class="carousel-caption fadeInUp ">
-                  <h3 id="h2-caption2">More abou the h2 tags</h3>
+                  <h3 id="h2-caption2">Fully Equipped Classrooms</h3>
                 </div>
               </div>
-          
-              <!-- <div class="item">
-                <img src="images/tenai.jpg" alt="image" id="corousel-image">
-                <div class="carousel-caption fadeInDown " >
-                  <h2 id="h2-caption1">One</h2>
-                </div>
-                <div class="carousel-caption fadeInUp ">
-                  <h3 id="h2-caption2">More abou the h2 tags</h3>
-                </div>
-              </div> -->
+
           
               <div class="item">
                 <img src="images/langat1.jpg" alt="image" id="corousel-image">
                 <div class="carousel-caption fadeInLeft " >
-                  <h2 id="h2-caption1">One</h2>
+                  <h2 id="h2-caption1">Enviroment</h2>
                 </div>
                 <div class="carousel-caption fadeInRight ">
-                  <h3 id="h2-caption2">More abou the h2 tags</h3>
+                  <h3 id="h2-caption2">Serene learning environment</h3>
                 </div>
               </div>
             </div>
@@ -153,9 +152,9 @@
                 <div class="messages-section top-thirty botttom-thirty">
                     <h3 style="font-size:22px;font-weight:bold;">Welcome To Our Website</h3>
                     <p style="font-size:15px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ... 
-                        <a href="#">
+                            Tenai  Education Center (TEC) is a private co-educational ECDE and
+                            Primary...
+                        <a href="about_us.html">
                             <span style="color:rgb(0, 176, 112);">Read More</span>
                         </a>
                     </p>
@@ -168,7 +167,7 @@
                     <p style="font-size:15px;">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ... 
-                        <a href="#">
+                        <a href="about_us.html">
                             <span style="color:rgb(0, 176, 112);">Read More</span>
                         </a>
                     </p>
@@ -183,48 +182,85 @@
     <!-- this is the core values -->
     <div class="container">
         <div style="margin-left:50px; margin-right:50px;"> 
-            <h3 style="font-weight:bold;" class="top-thirty bottom-thirty">Our Core Values</h3>
+            <h2 style="font-weight:bold;text-align: center; margin-bottom:10px;" class="top-thirty bottom-thirty main-color">TEC in a Netshell</h2>
             <div class="panel-group">
                 <div class="panel-default">
-                    <div class="panel-heading">
-                        <span style="font-size:20px;">Integrity </span>
+                    <div class="panel-heading" id="weare-nutshell">
+                        <span style="font-size:20px;">Why Choose TEC </span>
                         <i class="fa fa-angle-right pull-right core-pointers" ></i>
                     </div>
-                    <div class="panel-body" style="display:show">
-                        add panel body content here 
+                    <div class="panel-body" id="weare-nutshell-body">
+                        <h4 class="nutshell-body-font">
+                            The class sizes are small enabling personalised                              
+                            attention to our learners,
+                            Pupils are taught by highly qualified,
+                            experienced and motivated staff. 
+                        </h4>
+                         
+                    </div>
+
+                </div>
+
+                <div class="panel-default" id="motto-nutshell" >
+                    <div class="panel-heading" >
+                        <span style="font-size:20px;">Our Motto</span>
+                        <i class="fa fa-angle-right pull-right core-pointers" ></i>
+                    </div>
+                    <div class="panel-body" id="motto-nutshell-body">
+                        <!-- add panel body content here -->
+                        <h4  class="nutshell-body-font" style="text-align: center;">The Future starts here</h4>
                     </div>
 
                 </div>
 
                 <div class="panel-default" >
-                    <div class="panel-heading">
-                        <span style="font-size:20px;">Team Work</span>
+                    <div class="panel-heading" id="vision-nutshell">
+                        <span style="font-size:20px;" >Vision</span>
                         <i class="fa fa-angle-right pull-right core-pointers" ></i>
                     </div>
-                    <div class="panel-body">
+                    <div class="panel-body" id="vision-nutshell-body">
                         <!-- add panel body content here -->
+                        <h5 class="nutshell-body-font">
+                            To nurture all round pupils who are highly bregarded for
+                            excellence and for positive contribution in actively serving and 
+                            improving the community.
+                        </h5>
+
                     </div>
 
                 </div>
 
                 <div class="panel-default" >
-                    <div class="panel-heading">
-                        <span style="font-size:20px;">Quality Education</span>
+                    <div class="panel-heading" id="mission-nutshell">
+                        <span style="font-size:20px;">Mission</span>
                         <i class="fa fa-angle-right pull-right core-pointers" ></i>
                     </div>
-                    <div class="panel-body">
+                    <div class="panel-body" id="mission-nutshell-body">
                         <!-- add panel body content here -->
+                        <h5 class="nutshell-body-font">
+                            To provide a nurturing, happy, caring and stimulating environment where
+                            children will recognize and achieve their fullest potential, so that they 
+                            can make their best contribution to society.
+                        </h5>
                     </div>
 
                 </div>
 
                 <div class="panel-default" >
-                        <div class="panel-heading">
-                        <span style="font-size:20px;">Communication</span>
+                    <div class="panel-heading" id="offers-nutshell">
+                        <span style="font-size:20px;">We Offer</span>
                         <i class="fa fa-angle-right pull-right core-pointers" ></i>
                     </div>
-                    <div class="panel-body">
-                        <!-- add panel body content here -->
+                    <div class="panel-body" id="offers-nutshell-body">
+                        <ul id="offers-ul">
+                            <li>Fully equipped class rooms</li> 
+                            <li>Serene learning environment</li>
+                            <li> A variety of secure playing equipment and a large play ground </li>
+                            <li>Sports like , badminton, long tennis, athletics among others.</li>
+                            <li>Affordable school fees. </li>
+                            <li> Well balanced fresh meals and clean drinking water</li>
+                        </ul> 
+ 
                     </div>
 
                 </div>
@@ -244,9 +280,9 @@
                     <div class="top-thirty bottom-thirty more-links-section">
                         <h3>ABOUT US</h3>
                         <p style="font-size:15px;">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ... 
-                            <a href="#">
+                                The center is open to pupils of all religions, races and 
+                                Nationalities willing to pursue the Kenya ... 
+                            <a href="about_us.html">
                                 <span style="color:rgb(0, 176, 112);">Read More</span>
                             </a>
                             
@@ -277,14 +313,22 @@
                 <div class="col-md-3 col-sm-6 col-xs-6">
 
                     <div class="top-thirty bottom-thirty more-links-section">
-                        <a href="">
+                        <h3 style="margin-bottom:20px;">MORE LINKS</h3>
 
+                        <a href="index.html">
+                            <h4 style="margin-bottom:20px; margin-top:20px; color:black;">Home</h4>
+                        </a> 
+                        <a href="about_us.html">
+                            <h4 style="margin-bottom:20px; margin-top:20px; color:black;">About Us</h4>
                         </a>
-                        <h3 style="margin-bottom:20px; margin-top:20px;">MORE LINKS</h3>
-                        <h4 style="margin-bottom:20px; margin-top:20px;">Home</h4>
-                        <h4 style="margin-bottom:20px; margin-top:20px;">About Us</h4>
-                        <h4 style="margin-bottom:20px; margin-top:20px;">Location</h4>
-                        <h4 style="margin-bottom:20px; margin-top:20px;">Contact Us</h4>
+                        <a href="contact_us.html">
+                            <h4 style="margin-bottom:20px; margin-top:20px; color:black;">Contact Us</h4>
+                        </a>
+                        <a href="location.html">
+                            <h4 style="margin-bottom:20px; margin-top:20px; color:black;">Location</h4>
+                        </a>
+                            
+
                     </div>
                     
                 </div>
@@ -329,7 +373,6 @@
 
 
     <!-- this is the end of the footer section -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         $( document ).ready(function() {
             console.log( "ready!" );
@@ -340,9 +383,27 @@
         function animate(){
             $("#transboxj").hide();
             $("#transboxj").show(300);
-            
         }
-        // setInterval(animate, 5001)
+        
+        $("#weare-nutshell").click(function(){
+            $("#weare-nutshell-body").toggle();
+        });
+
+        $("#motto-nutshell").click(function(){
+            $("#motto-nutshell-body").toggle();
+        });
+
+        $("#mission-nutshell").click(function(){
+            $("#mission-nutshell-body").toggle();
+        });
+
+        $("#vision-nutshell").click(function(){
+            $("#vision-nutshell-body").toggle();
+        });
+
+        $("#offers-nutshell").click(function(){
+            $("#offers-nutshell-body").toggle();
+        });        
         
     </script>
 </body>
