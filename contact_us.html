@@ -87,8 +87,8 @@
 
     <!-- this is the contacts section -->
     <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
             <div class="top-thirty bottom-thirty">
                 <h2 style="font-weight:bold;">Tenai Education Center</h2>
                 <h3 style="margin-top:20px; margin-bottom: 20px;">
@@ -109,11 +109,23 @@
                     <b style="color: #999999;">Postal Address:</b><br><br>
                     <b><span class="main-color">Address:PO Box 2131-30100 Eldoret</b></span>
             
-                </h3>
+                </h3 style="margin-bottom:30px;">
             </div>
 
         </div>
-        <div class="col-md-4"></div>
+        <div class="col-md-5" style="margin-top:30px;">
+            <form action="https://formspree.io/kipngetich.ngeno333@gmail.com" method="POST" id="form_contact">
+                <h2 style="font-weight:bold;font-size:20px;">Send Us a Message</h2>
+                <input style="margin-top:15px;font-size:15px;" type="email" name="_replyto" class="form-control" placeholder="Your Email" required data-error="Please enter your email">
+                <input style="margin-top:10px;font-size:15px;" type="text" name="name" class="form-control" placeholder="Your Name" required data-error="Please enter your Name">
+                <textarea style="height:100px;margin-top:10px;font-size:15px;" name="comment" form="form_contact" class="form-control" required data-error="Please enter your Name">Enter message here...</textarea>
+                <div class="submit-button text-center">
+                    <input type="submit" value="Send" class="btn btn-common" style="background-color:#00BE73; width:50%; margin-top:10px;font-size:15px;">
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-2"></div>
     </div>
     <!-- end of the body section -->
 
